@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix
-    .sass('~/bootstrap-grid', 'dist/');
+    .sass('src/bootstrap-grid.scss', 'dist/');
 
 // Full API
 // mix.js(src, output);
